@@ -12,4 +12,5 @@ while t < t_max:
     site = neighbor[site][random.randint(0, 3)]
     print(site)
 
-print(np.sum(neighbor))
+
+np.sum(neighbor)
